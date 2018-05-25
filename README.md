@@ -24,3 +24,8 @@ ng-click defines the click handler.
 
 
 Open config.xml, this will open a configuration UI. Enable geolocatin module.
+
+
+Security meta data has to be included for client security reason. look at the meta section.
+
+

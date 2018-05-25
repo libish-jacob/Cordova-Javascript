@@ -21,6 +21,18 @@
             $scope.$apply(function () {
                 $scope.lat = position.coords.latitude;
                 $scope.long = position.coords.longitude;
+
+
+                var mapOptions = {
+                    center: new google.maps.LatLng(position.coords.latitude, position.coords.longitude),
+                    zoom: 20,
+                    mapTypeId: google.maps.MapTypeId.HYBRID
+                }
+
+                var elm = document.getElementById("map");
+                var map = new google.maps.Map(elm, mapOptions);
+                
+
             })
         }
     }]);
