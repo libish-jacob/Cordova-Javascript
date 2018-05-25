@@ -1,0 +1,8 @@
+{
+    "name": "JavascriptCordovaHtmlApp",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "angular": "^1.7.0"
+    }
+}
